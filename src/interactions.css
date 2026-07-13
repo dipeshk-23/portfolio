@@ -1,0 +1,23 @@
+@media (prefers-reduced-motion:no-preference){
+  .nav,.nav-links a,.button,.stat-grid>div,.skill-tile,.timeline-card,.certificate,.bento article,.socials a,.contact-link,.card-link,.email-big,.portrait{transition:transform .22s ease,background-color .22s ease,border-color .22s ease,box-shadow .22s ease,color .22s ease,filter .22s ease}
+  .nav:hover{border-color:rgba(125,191,255,.26);box-shadow:0 12px 35px rgba(0,0,0,.2)}
+  .nav-links a:hover{transform:translateY(-1px)}
+  .button:hover{transform:translateY(-2px);filter:brightness(1.07)}
+  .button:active{transform:translateY(0) scale(.98)}
+  .portrait:hover{transform:translateY(-3px);box-shadow:0 16px 35px rgba(17,88,166,.18);border-color:rgba(127,194,255,.38)}
+  .stat-grid>div:hover{transform:translateY(-3px);border-color:rgba(125,193,255,.4);background:rgba(44,113,196,.13);box-shadow:0 10px 24px rgba(0,0,0,.17)}
+  .stat-grid>div:hover strong{color:#9fd3ff}
+  .skill-tile:hover{transform:translateY(-4px) scale(1.02);border-color:rgba(120,193,255,.5);background:rgba(49,116,198,.16);box-shadow:0 12px 22px rgba(0,0,0,.2)}
+  .skill-tile:hover img{transform:scale(1.12)}
+  .timeline-card:hover{transform:translateX(5px);border-color:rgba(118,190,255,.43);background:rgba(26,61,103,.16);box-shadow:0 14px 30px rgba(0,0,0,.16)}
+  .timeline-card:hover .timeline-marker{transform:scale(1.3);box-shadow:0 0 22px #6ab4ff}
+  .project-card:hover{box-shadow:0 16px 32px rgba(0,0,0,.22)}
+  .certificate:hover{box-shadow:0 15px 30px rgba(0,0,0,.2);background:rgba(33,76,123,.15)}
+  .certificate:hover .cert-preview{filter:brightness(1.12)}
+  .bento article:hover{transform:translateY(-4px);border-color:rgba(119,193,255,.45);box-shadow:0 15px 30px rgba(0,0,0,.18)}
+  .coding-profiles a:hover{transform:translateX(4px)}
+  .socials a:hover{transform:translateY(-2px);border-color:rgba(139,202,255,.55);background:rgba(48,113,193,.16)}
+  .card-link:hover{color:#e6f4ff;transform:translateX(4px)}
+  .email-big:hover{color:#9ed3ff;letter-spacing:-.035em}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
